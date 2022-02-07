@@ -24,6 +24,10 @@ class form extends Component {
                 <label>Username:</label>
                 <input type = "text" value = {this.state.value} onChange={this.changeState}></input>
             </div>
+            <div>
+                <label>Somename:</label>
+                <input type = "text" value = {this.state.value} onChange={this.changeState}></input>
+            </div>
         </form>
     </div>)
   }
