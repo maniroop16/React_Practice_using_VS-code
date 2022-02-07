@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+// import Hello from "./Components/hello.js" ;
+// import State from "./Components/state.js" ;
+// import Conditional from "./Components/conditional.js" ;
+// import List from "./Components/list.js" ;
+// import Form from "./Components/form.js" ;
+//import Mount_a from "./Components/mount_a.js" ;
+//import Mount_b from "./Components/mount_b.js" ;
+//import Fragment from "./Components/fragments.js" ;
+//import Refs from "./Components/refs.js" ;
+import Refsparent from "./Components/refs_parent" ;
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Refsparent/>
     </div>
   );
 }
